@@ -1,4 +1,18 @@
 # jwt-with-nestjs #
+Basic jwt with nestjs
+
+## API Endpoint
+```
+- [POST] http://localhost:3000/auth/login
+  Body: {
+    email: string,
+    password: string,
+  }
+
+ ** you can see user lists in path: src\module\users\users.service.ts
+- [GET] http://localhost:3000/auth/profile
+  Header: Bearer Token
+```
 
 ## Installation
 ```
